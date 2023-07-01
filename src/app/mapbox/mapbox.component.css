@@ -1,0 +1,16 @@
+svg path:hover {
+    fill: red;
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+}
+
+#map-div {
+    width: 80%;
+}
+
+#stats-div {
+    width: 20%;
+}

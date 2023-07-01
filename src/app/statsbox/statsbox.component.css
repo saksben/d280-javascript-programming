@@ -1,0 +1,22 @@
+* {
+    text-align:left ;
+    color: white;
+}
+
+#main {
+    background-color: rgb(170, 170, 170);
+    margin-top: 50%;
+ }
+
+#hero {
+    background-color: rgb(97, 96, 96);
+    padding: 15px;
+}
+
+#top {
+    padding: 5px;
+}
+
+h1, #inst {
+    text-align: center;
+}
