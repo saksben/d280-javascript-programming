@@ -36,6 +36,7 @@ export class StatsboxComponent implements OnChanges {
   }
   */
 
+  //fetches country data with API
   fetchCountry(country: string | null) {
     this._webapiservice.getCountry(country).subscribe(data => {
       console.log(data[1][0]['incomeLevel']['value']);

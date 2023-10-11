@@ -8,6 +8,7 @@ import { Injectable } from '@angular/core';
 export class WebApiService {
   //private countryName: string | null = '';
   
+  //url of the worldbank API
   private url = 'https://api.worldbank.org/v2/country';
 
   constructor(private http: HttpClient) { }
@@ -20,6 +21,7 @@ export class WebApiService {
   }
   */
 
+  //calls the worldbank API to get the country data depending on the given country name
   getCountry(countryName: string | null): Observable<any> {
     const fullUrl = `${this.url}/${countryName}?format=json`
     return this.http.get<any>(fullUrl).pipe(
@@ -29,6 +31,7 @@ export class WebApiService {
     );
   }
 
+  //response in case of error
   private handleError(err: HttpErrorResponse) {
     let errorMessage = '';
     if (err.error instanceof ErrorEvent) {

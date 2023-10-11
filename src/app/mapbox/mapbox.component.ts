@@ -11,6 +11,7 @@ export class MapboxComponent implements OnInit{
   constructor(private elementRef: ElementRef) {}
 
   ngOnInit() {
+    //listens for mouseover for each country
     const paths = this.elementRef.nativeElement.querySelectorAll('path');
     paths.forEach((path: SVGPathElement) => {
       path.addEventListener('mouseover', (event: MouseEvent) => {
