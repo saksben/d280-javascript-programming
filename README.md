@@ -1,6 +1,6 @@
 # Interactive World Map
 
-This university project was so that I could discover how to use existing frameworks, assets, and web content to enhance website functionality, as well as how to use application programming interfaces (APIs) and web services to add data capabilities to web applications.
+This project was so that I could discover how to use existing frameworks, assets, and web content to enhance website functionality, as well as how to use application programming interfaces (APIs) and web services to add data capabilities to web applications.
 
 Through it, I was able to:
 
